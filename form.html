@@ -11,8 +11,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        margin: 1;
-        padding: 1;
+        
     }
 
     header {
@@ -55,8 +54,6 @@
     }
 
     input[type="text"],
-    input[type="email"],
-    input[type="series"],
     select {
         width: 90%;
         padding: 8px;
@@ -89,13 +86,13 @@
    <form action="thanks.html" method="get">
             <fieldset>
                 <legend>Personal Info </legend><br>
-                <lable for="firstname">First Name:</lable>
+                <label for="firstname">First Name:</label>
                 <input type="text" id="firstname" name="firstName" required><br><br>
 
-                <lable for="lastname">Last Name:</lable><br>
+                <label for="lastname">Last Name:</label><br>
                 <input type="text" id="lastname" name="lastName" required><br><br>
 
-                <lable for="email">Email:</lable><br>
+                <label for="email">Email:</label><br>
                 <input type="text" id="email" name="email" required><br><br>
             </fieldset>
             <br>
@@ -128,7 +125,7 @@
                 <lable for="actress">Favourite Actress:</lable><br>
                 <input type="text" id="actress" name="actress" required><br><br>
                 <lable for="series">Favourite Series:</lable><br>
-                <input type="series" id="actor" name="series" required><br><br>
+                <input type="text" id="series" name="series" required><br><br>
 
             </fieldset>
             <fieldset>
